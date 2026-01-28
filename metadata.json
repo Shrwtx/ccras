@@ -1,0 +1,7 @@
+{
+  "name": "CCRAS Medical AI Diagnostic Platform",
+  "description": "Upload medical scans for instant AI-driven classification and high-precision diagnostic reports powered by Gemini AI.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
