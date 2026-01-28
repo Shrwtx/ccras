@@ -1,12 +1,4 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
 
-# Run and deploy your AI Studio app
-
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/drive/1i2Qimh82FGmvZ7J4kbjYGAosNfIsp068
 
 ## Run Locally
 
@@ -32,7 +24,7 @@ View your app in AI Studio: https://ai.studio/apps/drive/1i2Qimh82FGmvZ7J4kbjYGA
 ```bash
 cd backend
 python -m venv myenv
-source myenv/bin/activate  # or myenv\Scripts\activate on Windows
+source myenv\Scripts\activate 
 pip install -r requirements.txt
 python -m uvicorn main:app --reload --host 0.0.0.0 --port 8000
 ```
